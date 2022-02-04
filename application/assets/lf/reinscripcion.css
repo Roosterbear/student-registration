@@ -1,0 +1,265 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Montserrat');
+
+/* ------------------------------------------------ */
+/* Esto quita un fondo que se le ponia a los links */
+/* ------------------------------------------------ */
+a:hover{background-color: #fff !important;}
+a:link{border:0px !important;}
+a{outline: none !important;}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.board{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.board .nav-tabs {
+    position: relative;
+    margin: 2em auto; /* Espacio superior general */
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+p.narrow{
+    width: 100%;
+    margin: 9px auto; /* Espacio entre titulo y texto */
+
+}
+
+/* Linea entre los iconos circulares */
+.liner{
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    /* -------------------------------------------------------------------- */
+    top: 50%; /* Esto es lo que le da la altura a la linea entre los iconos*/
+    /* -------------------------------------------------------------------- */
+    z-index: 1;
+}
+
+.blackened{
+    color: #ccc;
+}
+
+.resaltado{
+    font-weight: bold;
+    color: #666;
+}
+
+/* Circulos de iconos */
+span.round-tabs{
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* ------------------------------------------------ */
+/* ---------------- COMPLETED ----------------------*/
+/* ------------------------------------------------ */
+span.round-tabs.completed{
+    color: rgba(2, 167, 135, 1);
+    border: 2px solid rgba(2, 167, 135, 1);    
+}
+
+li.active span.round-tabs.completed{
+    color: rgba(2, 167, 135, 1);
+}
+
+.completed{
+    background-color: rgba(2, 167, 135, 0.3) !important;
+}
+
+
+/* ------------------------------------------------ */
+/* -------------- INCOMPLETED ----------------------*/
+/* ------------------------------------------------ */
+span.round-tabs.incompleted{
+    color: rgba(241, 104, 94, 1);
+    border: 2px solid rgba(241, 104, 94, 1);
+}
+
+li.active span.round-tabs.incompleted{
+    color: rgba(241, 104, 94, 1);
+}
+
+.incompleted{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+
+.nav > li > a{
+    padding: 0px !important;
+}
+
+/* Separacion entre cada circulo */
+.nav-tabs > li {
+    width: 20%;
+}
+
+.nav-tabs {
+    border-bottom: 0px !important;
+}
+
+/* ^^^^^^^^^^^^^ */
+/* ------------- */
+/*     FLECHA    */
+/* ------------- */
+/* ^^^^^^^^^^^^^ */
+li.active:after {
+    content: " ";
+    position: relative;
+    /* -------------------------------------------------------------------- */
+    left: 87%; /* Espacio relativo de la flecha con el margen izquierdo */
+    /* -------------------------------------------------------------------- */
+    opacity:1;
+    margin: 0px auto; /* Espacio entre linea y flecha */
+    bottom: 17px; /* Para que la flecha se pegue al fondo de la linea */
+    border: 10px solid transparent;
+    border-bottom-color: #ddd;
+}
+/* ------------- */
+
+.nav-tabs > li a{
+   width: 70px;
+   height: 70px;
+   margin: 20px auto;
+   border-radius: 100%;
+   padding: 0;
+}
+
+
+/* Espacio entre lineas y contenido */
+.tab-pane{
+    position: relative;
+    padding-top: 15px;
+}
+
+/* Estilo del titulo */
+.tab-content .head{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+.tabla-datos th{
+    background-color: rgba(2, 167, 135, 0.3) !important; 
+    text-align: center;
+}
+
+.tabla-datos{
+    width: 100%;
+    border: solid thin #bbb;    
+    padding: 2px;
+}
+
+.tabla-datos td,.tabla-datos th{
+    padding: 7px;
+    border: solid thin #bbb; 
+}
+
+.mi-contenedor{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.bigger-font{
+    font-size: 1em !important;
+    color: #666;    
+}
+
+.verdecito{
+    background-color: rgba(2, 167, 135, 0.3) !important;
+}
+
+.amarillo{
+    color: #e8e62c;
+}
+
+a.boton:hover{
+    background-color:  #e8e62c !important;
+}  
+
+
+/* @@@@@@@@@@@@@@@@@@@@ */  
+/* @@@@@@@@@@@@@@@@@@@@ */  
+
+/* PAGOS Y COLEGIATURAS */
+
+/* @@@@@@@@@@@@@@@@@@@@ */  
+/* @@@@@@@@@@@@@@@@@@@@ */  
+
+.modal-exlg{
+    width: 50% !important;
+}
+
+h3.aviso{
+  padding: 12px !important;
+  border: 1px solid #ccc !important;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@ */  
+/* @@@@@@@@@@@@@@@@@@@@ */  
+
+/*      CONVENIOS       */
+
+/* @@@@@@@@@@@@@@@@@@@@ */  
+/* @@@@@@@@@@@@@@@@@@@@ */  
+
+
+#panel_alta_institucion{
+    display: none;
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.convenio_institucion{
+    display: none;
+}
+
+.alta{
+   color: #999; 
+}
+
+.details_text{
+    cursor:pointer;
+    padding: 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top:  1px solid #ccc;
+    margin-left: 0.5em;
+}
+
+.espaciado{
+    padding-left: 0.5em !important;
+}
+
+a.btn-primary:hover{
+    background-color: #6095d2 !important;
+}
+
+
+
+/* ELEMENTOS QUE NO SE IMPRIMEN */
+
+@media print {
+
+  
+}

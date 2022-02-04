@@ -1,0 +1,154 @@
+/* OJO: En SITO no se refrescan los estilos hasta que sales de la aplicacion */
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+*{}
+
+a{
+	text-decoration: none !important;
+	}
+
+.rojo{
+  color:#c00;  
+}
+
+.verde{
+	color:#0a0;
+}
+
+.espaciado{
+	padding:7px;
+}
+
+.iconoRestriccion{
+	color: rgba(40,130,230,0.9);
+}
+
+.titulitos{
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.check{
+	color: #2780e3;
+}
+
+.izquierda{
+   text-align: left;   
+}
+
+.derecha{
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.centrado{
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.brinco{
+	margin-top: 20px;
+	padding-bottom-bottom: 20px;
+}
+
+.linea_azul{
+	border-top: 2px solid #d6ddec;
+}
+
+.hide{
+	display:none;
+}
+
+.very-small{
+	font-size: 0.8em;
+}
+
+/* -------- BOTONES OFICIALES DEL SITO RENOVADO -------- */
+.btn-sitoGuardar a{
+	color: #ddd;
+}
+
+.btn-sitoGuardar{
+	background-color: #02a787;
+	color: #ddd;
+}
+
+span > a:hover .btn-sitoGuardar{
+	background-color: rgba(2,167,135,0.8);
+	color: #fff;
+}
+
+.btn-sitoCancelar a{
+	color: #ddd;
+}
+
+.btn-sitoCancelar{
+	background-color: #b03060;
+	color: #ddd;
+}
+
+span > a:hover .btn-sitoCancelar{
+	background-color: rgba(189,61,109,0.9);
+	color: #fff;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* --- ESTILOS PARA VALES DE ESTUDIANTES --- */
+
+.oswald{
+	font-family: 'Oswald', sans-serif;
+}
+
+.round-button{
+	width: 25px;
+}
+
+.plus{
+	text-align: center;
+	padding: 11px 0px;
+	background-color: #02a787;
+	color: #fff;
+	display: block;
+	font-family: Verdana;
+	font-size: 25px;
+	margin-top: 25px;
+	border-radius: 50%;
+}
+
+.round-button a:link, .round-button a:hover, .round-button a:active{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+
+.round-button a:hover .plus{
+	background-color: rgba(2,167,135,0.8);
+	outline: none;
+}
+
+
+.round-button .plus a{
+	color: #ddd;
+	background-color: #02a787;
+	cursor:pointer;
+	outline: none;
+}
+
+#titulo_lista_de_precios{
+	color: #02a787;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	margin-right: 20px;
+	vertical-align: bottom;
+}
+
+
+.tabla_modal{
+	border: 1px solid #999;
+	width: 100%;
+}
+
+

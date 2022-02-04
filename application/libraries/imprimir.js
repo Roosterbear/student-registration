@@ -1,0 +1,5 @@
+function imprimirModal(){    
+    $(".printable").printThis({ 
+    
+    }); 
+}
