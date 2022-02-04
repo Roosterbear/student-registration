@@ -223,6 +223,3 @@ $("body").on('click','[data-toggle=modal]', function (e) {
   });
 });
 </script>
-
-
-<!-- just a test for git -->
